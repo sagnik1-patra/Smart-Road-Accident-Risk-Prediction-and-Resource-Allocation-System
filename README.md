@@ -1,4 +1,4 @@
-# 🚑 Smart Road Accident Risk Prediction and Resource Allocation System using Artificial Immune System (AIS)
+# 🚑 Smart Road Accident Risk Prediction and Resource Allocation System using Artificial Immune System (AIS) 
 
 
 ## 📌 Project Overview
