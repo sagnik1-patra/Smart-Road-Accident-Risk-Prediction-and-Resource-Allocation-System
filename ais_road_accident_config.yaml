@@ -1,0 +1,32 @@
+project_name: AIS Smart Road Accident Risk Prediction and Resource Allocation System
+dataset_path: C:\Users\NXTWAVE\Downloads\Smart Road Accident Risk Prediction and Resource
+  Allocation System\Transport_2024_Annexure_3.csv
+target_column: State / UT - wise Total Number of Persons Killed in Road Accidents
+  during - 2024 - Number
+classification_target: Risk_Level
+features:
+- Sl. No.
+- State / UT - wise Total Number of Persons Killed in Road Accidents during - 2021
+- State / UT - wise Total Number of Persons Killed in Road Accidents during - 2022
+- State / UT - wise Total Number of Persons Killed in Road Accidents during - 2023
+- Share of States / UTs in Total Number of Persons Killed in Road Accidents - 2021
+- Share of States / UTs in Total Number of Persons Killed in Road Accidents - 2022
+- Share of States / UTs in Total Number of Persons Killed in Road Accidents - 2023
+- Share of States / UTs in Total Number of Persons Killed in Road Accidents - 2024
+- Total Number of Persons Killed in Road Accidents Per Lakh Population - 2021
+- Total Number of Persons Killed in Road Accidents Per Lakh Population - 2022
+- Total Number of Persons Killed in Road Accidents Per Lakh Population - 2023
+- Total Number of Persons Killed in Road Accidents Per Lakh Population - 2024
+- Total Number of Persons Killed in Road Accidents per 10,000 Vehicles - 2022
+- Total Number of Persons Killed in Road Accidents per 10,000 Km of Roads - 2022 (P)
+- Fatality_Growth_2021_2024
+- Fatality_Growth_2023_2024
+- Road_Safety_Risk_Index
+- Recommended_Ambulances
+- Recommended_Highway_Patrols
+- Recommended_Trauma_Centers
+risk_classes:
+- High
+- Low
+- Medium
+optimization_algorithm: Artificial Immune System

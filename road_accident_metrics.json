@@ -1,0 +1,65 @@
+{
+    "random_forest_regression": {
+        "MAE": 240.5173333333333,
+        "RMSE": 307.4097924305961,
+        "R2_Score": 0.9855115258612709
+    },
+    "ann_regression": {
+        "MAE": 1890.0618896484375,
+        "RMSE": 2478.792548802743,
+        "R2_Score": 0.05796372890472412
+    },
+    "random_forest_classification": {
+        "Accuracy": 1.0,
+        "Classification_Report": {
+            "High": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 3.0
+            },
+            "Low": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 3.0
+            },
+            "Medium": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 4.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 10.0
+            },
+            "weighted avg": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 10.0
+            }
+        },
+        "Confusion_Matrix": [
+            [
+                3,
+                0,
+                0
+            ],
+            [
+                0,
+                3,
+                0
+            ],
+            [
+                0,
+                0,
+                4
+            ]
+        ]
+    }
+}
